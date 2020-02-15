@@ -1,0 +1,174 @@
+body {
+  margin: 0 0;
+  background: -webkit-linear-gradient(top, #E1E6EC 0%, #F0F4F7 100%), -webkit-linear-gradient(top, #E1E6EC 0%, #F0F4F7 100%);
+  background: linear-gradient(to bottom, #E1E6EC 0%, #F0F4F7 100%), linear-gradient(to bottom, #E1E6EC 0%, #F0F4F7 100%);
+  background-blend-mode: normal,color-burn;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 50px;
+  font-family: 游明朝, HGP明朝E, "Times New Roman", Century;
+  padding-left: 30px;
+  letter-spacing: 5px;
+  color: black;
+  padding-top: 30px;
+}
+
+header {
+  /* height: 150px;  */
+}
+
+.container {
+  display: flex;
+}
+
+.container h1 {
+  margin-right: 800px;
+}
+
+
+.container a{
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: auto;
+  text-decoration: none;
+  color: #889eab;
+  border-radius: 15px;
+  
+}
+
+.button {
+  margin-right: 50px;
+  background-color: black;
+  color: #889eab;
+  box-shadow: 0 3px 0 gray;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+
+.button:hover {
+  background-color: #889eab;
+  color: black;
+  box-shadow: 0 3px 0 gray;
+}
+.button:active {
+  top: 3px;
+  box-shadow: none;
+}
+
+/* ここまでがヘッダーです。 */
+
+.heading {
+  margin-left: 200px;
+}
+
+.heading h1 {
+  font-size: 40px;
+  padding: 80px 0 15px 0; 
+  font-family: Arial;
+  color: black;
+}
+
+.heading p {
+  font-size: 15px;
+  width: 600px;
+  color: black;
+}
+
+.heading span {
+  color: red;
+}
+
+.middle-wrapper {
+  text-align: right;
+  margin-right: 200px;
+}
+
+.middle-wrapper img {
+  max-width: 400px;
+  position: absolute;
+  top: 150px;
+  right: 150px;
+
+}
+
+.btn-wrapper {
+  margin: 100px 0;
+  text-align: center;
+}
+
+.Portfolio {
+  background-color: #239b76;
+  text-decoration: none;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.twitter {
+  background-color: #55acee;
+  text-decoration: none;
+}
+
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.contact-form {
+  padding-top: 20px;
+  padding-left: 200px;
+}
+
+.contact-form h3 {
+  border-bottom: 2px solid black;
+  width:1100px;
+}
+
+input, textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid black;
+  height: 18px;
+  border-radius: 10px;
+}
+
+.contact-submit {
+  background-color: black;
+  color: #889eab;
+  overflow: scroll;
+  padding-bottom: 45px;
+  border-radius: 10px;
+}
+
+.contact-submit:hover {
+  background-color: #889eab;
+  color: black;
+  box-shadow: 0 3px 0 gray;
+}
+.contact-submit:active {
+  top: 3px;
+  box-shadow: none;
+}
+
+footer {
+  display: block;
+  padding-left: 100px;
+}
