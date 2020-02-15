@@ -84,7 +84,7 @@ header {
   margin-right: 200px;
 }
 
-.middle-wrapper img {
+.middle-wrapper a {
   max-width: 400px;
   position: absolute;
   top: 150px;
